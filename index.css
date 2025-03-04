@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+* {
+    background-attachment: fixed;
+}
+body {
+    background-image: linear-gradient(to right, rgb(62, 62, 239), rgb(80, 112, 228), rgb(232, 74, 74), rgb(253, 59, 59));
+    color: #fff;
+}
+header {
+    color: rgb(20, 20, 246);
+    text-shadow: 1.5px 0.6px 2px #000;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+}
+main {
+    background-color: rgba(247, 247, 247, 0.721);
+    box-shadow: 5.5px 3.4px 3.7px #000;
+    border-radius: 3.5px;
+    width: 318px;
+    height: auto;
+    margin: auto;
+}
+section {
+    text-align: center;
+    color: rgb(180, 8, 8);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16.5pt;
+    text-shadow: 1.5px 0.8px 2px #00000075;
+}
+#ferreira {
+    color: red;
+}
+footer {
+    background-color: #00000024;
+    font-size: 14pt;
+    text-align: center;
+    font-family: cursive;
+    color: gold;
+}
+#vscode-icon {
+    color: rgb(17, 97, 226);
+}
+#link-dd {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(19, 132, 231);
+    background-color: #000;
+    border-radius: 0px;
+    border: 3px solid rgb(11, 94, 167);
+    box-shadow: 3px 3px 3px #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22pt;
+    transition: all linear 172ms;
+    width: 150px;
+    margin: auto;
+}
+#link-dd:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 12px #000;
+}
+#link-yt {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(234, 21, 21);
+    background-color: #000;
+    border-radius: 0px;
+    border: 3px solid #c50a0a;
+    box-shadow: 3px 3px 3px #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24pt;
+    transition: all linear 172ms;
+    width: 125px;
+    height: 37.9px;
+    margin: auto;
+}
+#link-yt:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 12px #000;
+}
+#inside {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #7f15d1;
+    background-color: #000;
+    border-radius: 0px;
+    border: 3px solid #6710a9;
+    box-shadow: 3px 3px 3px #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    transition: all linear 172ms;
+    width: 140px;
+    height: 37.9px;
+    padding: 2.3px;
+    margin: auto;
+}
+#inside:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 12px #000;
+}
